@@ -10,7 +10,7 @@ public class HelloController {
 	public String GetHello(Model model) {
 		Data data=new Data("hi", "27");
 		model.addAttribute("data",data);
-		return "Hello";
+		return "/hello/data";
 	}
 
 	
