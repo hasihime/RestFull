@@ -1,4 +1,4 @@
-package com.hasi.HelloRest.Controller;
+package com.hasi.HelloRest.Appliction;
 
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,7 +13,6 @@ public class HelloController {
 		return "/hello/data";
 	}
 
-	
 	//data Ãß°¡
 	class Data{
 		String name;
